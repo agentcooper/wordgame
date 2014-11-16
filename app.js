@@ -25,7 +25,7 @@ var gameState = {
 function nextRound() {
   gameState.round += 1;
 
-  gameState.word = words[gameState.round % words.length];
+  gameState.word = _.sample(words);
 
   gameState.host = nextHost();
 

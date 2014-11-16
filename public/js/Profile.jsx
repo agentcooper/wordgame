@@ -12,7 +12,7 @@ module.exports = React.createClass({
       message =
         this.isHost() ?
         (
-          <p>
+          <div>
             You are a host.
             <h2>Explain:</h2>
             <div className="alert alert-success" role="alert">
@@ -23,7 +23,7 @@ module.exports = React.createClass({
                 return <li>{word}</li>
               })
             }</ul>
-          </p>
+          </div>
         ) :
         (<p>{this.props.game.host} is host now.</p>)
     } else {
@@ -34,7 +34,7 @@ module.exports = React.createClass({
       <div className="profile">
         <p>Hi, {this.props.profile.username}.</p>
 
-        {message}
+        <div>{message}</div>
       </div>
     )
   }

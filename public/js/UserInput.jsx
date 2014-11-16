@@ -9,10 +9,6 @@ module.exports = React.createClass({
   },
 
   handleChange(event) {
-    if (/[^0-9a-zA-Z ]+/.test(event.target.value)) {
-      return;
-    }
-
     var valid = this.props.validate(event.target.value);
 
     this.setState({

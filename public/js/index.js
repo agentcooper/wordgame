@@ -99,6 +99,10 @@ var App = React.createClass({
   },
 
   checkMessage: function(text) {
+    if (/[^0-9a-zA-Z ,!?\.]+/.test(text)) {
+      return false;
+    }
+
     if (!this.isHost()) {
       return true;
     }
