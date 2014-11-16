@@ -15,7 +15,7 @@ var gameState = {
 
   word: words[0],
 
-  secret: 'fuck you',
+  secret: '',
   
   round: 1,
 
