@@ -1,0 +1,16 @@
+.chat {
+  height: 300px;
+  overflow: auto;
+}
+
+.host {
+  font-weight: bold;
+}
+
+.bad .message-input {
+  background-color: red;
+}
+
+.message {
+  padding: 3px 0 3px 0;
+}
