@@ -1,9 +1,9 @@
 var words = [
-'cow|milk,animal,horns,moo',
+'cow|holy,india,kill,grass,meat,farm,pig,milk,animal,horns,moo',
 
-'door|open,close,handle',
+'door|open,close,handle,window,enter,exit',
 
-'jetpack|fly,back,flame,sky',
+'jetpack|fly,back,flame,sky,up,rocket,future',
 
 'dinosaur|rex,prehistoric,big,old',
 
@@ -13,15 +13,15 @@ var words = [
 
 'iphone|android,apple,jobs,cook,ive,ios',
 
-'amsterdam|city,drug,weed,netherlands,holland,mushrooms,europe',
+'amsterdam|city,drug,weed,netherlands,holland,mushrooms,europe,live',
 
 'spy|secret,agent,bond,government,hat',
 
-'veteran|old,war,person,man,fight',
+'veteran|hero,soldier,military,old,war,person,man,fight',
 
-'irony|humor,joke,drama,term',
+'irony|humor,joke,drama,term,sarcasm',
 
-'compass|navigation,ship,needle,magnet,round',
+'compass|direction,navigation,ship,needle,magnet,round',
 
 'democracy|people,vote,power,law,citizen,government,greek,society,rule',
 
@@ -35,33 +35,23 @@ var words = [
 
 'keyboard|press,key,any,type,symbol,character,laptop,computer,book,letter,hands',
 
-'bikini|bottom,woman,sex,swim,nude,beach,body,under,wear,beauty,sand,sea,bra,wax',
+'bikini|naked,bottom,woman,sex,swim,nude,beach,body,under,wear,beauty,sand,sea,bra,wax',
 
-'hell|god,bad,devil,dante,circle,seven,hot,religion,go,to,place,exist',
+'hell|heaven,god,bad,devil,dante,circle,seven,hot,religion,go,to,place,exist',
 
-'japan|weird,anime,country,place',
+'japan|asia,weird,anime,country,place,strange',
 
 'sudoku|game,square,number,grid,pencil,paper,pen,sum,equal',
 
-'integral|character,lambda,calculus,math,symbol,process',
+'integral|differential,character,lambda,calculus,math,symbol,process',
 
 'anime|cartoon,japanese,japan,manga,bleach,naruto,hentai',
 
-'startup|facebook,social,network,money',
+'startup|facebook,social,network,money,company,new,small',
 
-'dota|video,game,videogame,cybersport,international',
+'programming|language,code,javascript,c,ruby,python,hack,programmer',
 
-'juice|fruit,water,drink,squeeze',
-
-'metal|death,music,guitar,metallica,rock,metalhead',
-
-'life|alive,death,body,birth',
-
-'orange|fruit,vitamin',
-
-'programming|code,javascript,c,ruby,python,hack,programmer',
-
-'videogame|computer,playstation,xbox,console,play,game,tv'
+'videogame|computer,playstation,xbox,console,play,game,tv,nintendo,tetris,pacman'
 ];
 
 module.exports = words.map(function(line) {
